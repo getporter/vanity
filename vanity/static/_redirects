@@ -1,0 +1,12 @@
+# See Netlify Redirects syntax https://docs.netlify.com/routing/redirects/
+# This file handles redirecting to the root of the repo when sub-packages are requested via go get
+# It also redirects a person manually browsing this site to the source github repo.
+
+/porter/* go-get=1 /porter/index.html 200
+/porter/* https://github.com/deislabs/porter 302
+
+/mixin/:repo/* go-get=1 /mixin/:repo/index.html 200
+/mixin/:repo/* https://github.com/deislabs/porter-:repo 302
+
+/plugin/:repo/* go-get=1 /plugin/:repo/index.html 200
+/plugin/:repo/* https://github.com/deislabs/porter-:repo-plugins 302

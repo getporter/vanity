@@ -1,0 +1,15 @@
+baseURL = "https://get.porter.sh/"
+languageCode = "en-us"
+title = "Porter Source Code"
+theme = "ananke"
+canonifyURLs = "false"
+relativeURLs = "true"
+pluralizeListTitles = "false"
+plainIdAnchors = "true"
+defaultContentLanguage = "en"
+
+[params]
+  title = "Porter Source Code"
+  author = "Carolyn Van Slyck"
+  description = "The vanity server for Porter's source code"
+  recent_posts_number = 100
