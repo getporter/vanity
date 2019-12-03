@@ -1,4 +1,4 @@
-<img align="right" src="vanity/static/images/porter-notext.png" width="125px" />
+<img align="right" src="/vanity/static/porter-notext.png" width="125px" />
 
 # Porter's Go Vanity Server
 
