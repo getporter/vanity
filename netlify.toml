@@ -1,5 +1,5 @@
 [settings]
-  ID = "porter-vanity"
+  ID = "get-porter"
 
 [build]
   publish = "vanity/public"
