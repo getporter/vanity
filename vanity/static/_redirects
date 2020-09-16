@@ -6,7 +6,7 @@
 /porter/* https://github.com/getporter/porter 302
 
 /mixin/:repo/* go-get=1 /mixin/:repo/index.html 200
-/mixin/:repo/* https://github.com/getporter/:repo 302
+/mixin/:repo/* https://github.com/getporter/:repo-mixin 302
 
 /plugin/:repo/* go-get=1 /plugin/:repo/index.html 200
-/plugin/:repo/* https://github.com/getporter/:repo 302
+/plugin/:repo/* https://github.com/getporter/:repo-plugins 302
