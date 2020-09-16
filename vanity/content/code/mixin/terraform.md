@@ -1,5 +1,5 @@
 ---
 title: "terraform mixin"
-vanity: "https://github.com/deislabs/porter-terraform"
+vanity: "https://github.com/getporter/terraform-mixin"
 url: "/mixin/terraform/"
 ---

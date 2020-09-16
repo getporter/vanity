@@ -1,5 +1,5 @@
 ---
 title: "plugins"
-vanity: "https://github.com/deislabs/"
+vanity: "https://github.com/getporter/"
 url: "/plugin/"
 ---

@@ -2,7 +2,7 @@
 
 # Porter's Go Vanity Server
 
-Porter uses a vanity import, for example `get.porter.sh/porter` instead of `github.com/deislabs/porter`, so that in the future when Porter moves to another GitHub organization, it doesn't cause problems and break mixins.
+Porter uses a vanity import, for example `get.porter.sh/porter` instead of `github.com/getporter/porter`, so that in the future when Porter moves to another GitHub organization, it doesn't cause problems and break mixins.
 
 This repository contains a tiny website that hosts the redirect pages that make it work. A big thanks to Nate Finch for [explaining how to do this][blog]. 🙇‍♀️
 
