@@ -18,7 +18,7 @@ project.
     ```
     ---
     title: "Stuff Mixin"
-    vanity: "https://github.com/getporter/porter-stuff"
+    vanity: "https://github.com/getporter/stuff-mixin"
     url: "/mixin/stuff/"
     ```
 
