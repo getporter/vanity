@@ -1,5 +1,5 @@
 ---
 title: "kubernetes mixin"
-vanity: "https://github.com/deislabs/porter-kubernetes"
+vanity: "https://github.com/getporter/kubernetes-mixin"
 url: "/mixin/kubernetes/"
 ---

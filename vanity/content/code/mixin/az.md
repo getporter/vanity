@@ -1,5 +1,5 @@
 ---
 title: "az mixin"
-vanity: "https://github.com/deislabs/porter-az"
+vanity: "https://github.com/getporter/az-mixin"
 url: "/mixin/az/"
 ---

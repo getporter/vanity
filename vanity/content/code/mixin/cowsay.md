@@ -1,5 +1,5 @@
 ---
 title: "cowsay mixin"
-vanity: "https://github.com/deislabs/porter-cowsay"
+vanity: "https://github.com/carolynvs/porter-cowsay"
 url: "/mixin/cowsay/"
 ---

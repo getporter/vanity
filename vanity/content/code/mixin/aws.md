@@ -1,5 +1,5 @@
 ---
 title: "aws mixin"
-vanity: "https://github.com/deislabs/porter-aws"
+vanity: "https://github.com/getporter/aws-mixin"
 url: "/mixin/aws/"
 ---
