@@ -1,5 +1,5 @@
 ---
-title: "helm mixin"
-vanity: "https://github.com/getporter/helm-mixin"
-url: "/mixin/helm/"
+title: "helm2 mixin"
+vanity: "https://github.com/getporter/helm2-mixin"
+url: "/mixin/helm2/"
 ---
