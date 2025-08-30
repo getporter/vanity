@@ -1,5 +1,5 @@
 var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 var webpack = require('webpack');
 var AssetsPlugin = require('assets-webpack-plugin');
 
@@ -15,16 +15,17 @@ module.exports = {
 				use: {
 					loader: 'babel-loader',
 					options: {
-						presets: ['env']
+						presets: ['@babel/preset-env']
 					}
 				}
 			},
 			{
 				test: /\.css$/,
-				use: ExtractTextPlugin.extract({
-					fallback: 'style-loader',
-					use: 'css-loader?importLoaders=1!postcss-loader'
-				})
+				use: [
+					MiniCssExtractPlugin.loader,
+					'css-loader',
+					'postcss-loader'
+				]
 			}
 		]
 	},
@@ -44,14 +45,12 @@ module.exports = {
 			path: path.join(__dirname, '../data'),
 			prettyPrint: true
 		}),
-		new ExtractTextPlugin({
-			filename: getPath => {
-				return getPath('css/[name].[contenthash].css');
-			},
-			allChunks: true
+		new MiniCssExtractPlugin({
+			filename: 'css/[name].[contenthash].css'
 		})
 	],
 	watchOptions: {
-		watch: true
+		aggregateTimeout: 300,
+		poll: 1000
 	}
 };
