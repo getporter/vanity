@@ -6,7 +6,7 @@
   command = "make"
 
 [build.environment]
-  HUGO_VERSION = "0.53"
+  HUGO_VERSION = "0.154"
 
 [context.branch-deploy]
   command = "make BASEURL_FLAG=\"-b $DEPLOY_PRIME_URL\"/"
